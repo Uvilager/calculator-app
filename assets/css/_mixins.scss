@@ -1,0 +1,115 @@
+@import '_variables.scss';
+
+@mixin light {
+    background-color: $primaryBackgroundColorTwo;
+    color: $textColorTwo;
+    header {
+        .theme {
+            input {
+                background: $secondaryBackgroundColorTwo;
+                &::-webkit-slider-thumb {
+                    background-color: $tertiaryButtonsColorTwo;
+                }
+            }
+        }
+    }
+    main {
+        .result {
+            background-color: $secondaryBackgroundColorTwo;
+        }
+        .keypad {
+            background-color: $tertiaryBackgroundColorTwo;
+            .number {
+                color: $numbersColorTwo;
+                background-color: $buttonsColorTwo;
+                box-shadow: inset 0px -4px 0px $backgroundShadowTwo;
+            }
+            .large {
+                background-color: $tertiaryButtonsColorTwo;
+                color: $textColorOne;
+                box-shadow: inset 0px -4px 0px $backgroundShadowRedTwo;
+            }
+            .blue {
+                background-color: $secondaryButtonsColorTwo;
+                color: $textColorOne;
+                box-shadow: inset 0px -4px 0px $backgroundShadowBlueTwo;
+            }
+        }
+    }
+}
+
+@mixin dark {
+    background-color: $primaryBackgroundColorOne;
+    color: $textColorOne;
+    header {
+        .theme {
+            input {
+                background-color: $secondaryBackgroundColorOne;
+                &::-webkit-slider-thumb {
+                    background-color: $tertiaryButtonsColorOne;
+                }
+            }
+        }
+    }
+    main {
+        .result {
+            background-color: $secondaryBackgroundColorOne;
+        }
+        .keypad {
+            background-color: $tertiaryBackgroundColorOne;
+            .number {
+                color: $numbersColorOne;
+                background-color: $buttonsColorOne;
+                box-shadow: inset 0px -4px 0px $backgroundShadowOne;
+            }
+            .large {
+                background-color: $tertiaryButtonsColorOne;
+                color: $textColorOne;
+                box-shadow: inset 0px -4px 0px $backgroundShadowRedOne;
+            }
+            .blue {
+                background-color: $secondaryButtonsColorOne;
+                color: $textColorOne;
+                box-shadow: inset 0px -4px 0px $backgroundShadowBlueOne;
+            }
+        }
+    }
+}
+
+@mixin purple {
+    background-color: $primaryBackgroundColorThree;
+    color: $textColorThree;
+    header {
+        .theme {
+            input {
+                background-color: $secondaryBackgroundColorThree;
+                &::-webkit-slider-thumb {
+                    background-color: $tertiaryButtonsColorThree;
+                }
+            }
+        }
+    }
+    main {
+        .result {
+            background-color: $secondaryBackgroundColorThree;
+        }
+        .keypad {
+            background-color: $tertiaryBackgroundColorThree;
+            .number {
+                color: $numbersColorThree;
+                background-color: $buttonsColorThree;
+                box-shadow: inset 0px -4px 0px $backgroundShadowThree;
+            }
+            .large {
+                background-color: $tertiaryButtonsColorThree;
+                color: $numbersColorBlack;
+                box-shadow: inset 0px -4px 0px $backgroundShadowRedThree;
+            }
+            .blue {
+                background-color: $secondaryButtonsColorThree;
+                color: $textColorThree;
+                box-shadow: inset 0px -4px 0px $backgroundShadowBlueThree;
+            }
+        }
+    }
+}

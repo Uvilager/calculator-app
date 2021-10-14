@@ -1,1 +1,318 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+body header {
+  margin-top: 28px;
+  width: 327px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 600px) {
+  body header {
+    width: 540px;
+    margin-top: 96px;
+  }
+}
+
+body header h1 {
+  font-size: 32px;
+  letter-spacing: -0.53px;
+  font-weight: bold;
+}
+
+body header .theme {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body header .theme h2 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-right: 21px;
+  margin-bottom: 5px;
+}
+
+body header .theme input {
+  -webkit-appearance: none;
+  width: 71px;
+  height: 26px;
+  border-radius: 13px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+body header .theme input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+
+body header .theme input::-webkit-slider-runnable-track {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+body header .theme p {
+  position: absolute;
+  top: -5px;
+  right: 2px;
+  font-size: 12px;
+  letter-spacing: 6px;
+}
+
+body main .result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 327px;
+  height: 88px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 600px) {
+  body main .result {
+    width: 540px;
+    height: 128px;
+  }
+}
+
+body main .result p {
+  font-size: 32px;
+  letter-spacing: -0.53px;
+  font-weight: bold;
+  margin-right: 24px;
+}
+
+body main .keypad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 13px;
+  padding: 24px;
+  width: 327px;
+  height: 420px;
+  border-radius: 10px;
+  margin-bottom: 31px;
+}
+
+@media (min-width: 600px) {
+  body main .keypad {
+    width: 540px;
+    height: 480px;
+    padding: 30px;
+    gap: 24px;
+  }
+}
+
+body main .keypad .number {
+  font-family: 'Spartan', sans-serif;
+  border: none;
+  font-size: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 64px;
+  width: 60px;
+}
+
+@media (min-width: 600px) {
+  body main .keypad .number {
+    width: 101px;
+  }
+}
+
+body main .keypad .large {
+  font-size: 16px;
+  width: 133px;
+}
+
+@media (min-width: 600px) {
+  body main .keypad .large {
+    width: 227px;
+    font-size: 20px;
+  }
+}
+
+body main .keypad .blue {
+  font-size: 16px;
+}
+
+.light {
+  background-color: #e5e4e1;
+  color: #36362c;
+}
+
+.light header .theme input {
+  background: #eeeeee;
+}
+
+.light header .theme input::-webkit-slider-thumb {
+  background-color: #c85402;
+}
+
+.light main .result {
+  background-color: #eeeeee;
+}
+
+.light main .keypad {
+  background-color: #d2cdcd;
+}
+
+.light main .keypad .number {
+  color: #36362c;
+  background-color: #e5e4e1;
+  -webkit-box-shadow: inset 0px -4px 0px #a79e91;
+          box-shadow: inset 0px -4px 0px #a79e91;
+}
+
+.light main .keypad .large {
+  background-color: #c85402;
+  color: #ffffff;
+  -webkit-box-shadow: inset 0px -4px 0px #873901;
+          box-shadow: inset 0px -4px 0px #873901;
+}
+
+.light main .keypad .blue {
+  background-color: #378187;
+  color: #ffffff;
+  -webkit-box-shadow: inset 0px -4px 0px #1b6066;
+          box-shadow: inset 0px -4px 0px #1b6066;
+}
+
+.dark {
+  background-color: #3a4663;
+  color: #ffffff;
+}
+
+.dark header .theme input {
+  background-color: #181f33;
+}
+
+.dark header .theme input::-webkit-slider-thumb {
+  background-color: #d03f2f;
+}
+
+.dark main .result {
+  background-color: #181f33;
+}
+
+.dark main .keypad {
+  background-color: #242d44;
+}
+
+.dark main .keypad .number {
+  color: #434a59;
+  background-color: #eae3dc;
+  -webkit-box-shadow: inset 0px -4px 0px #b3a497;
+          box-shadow: inset 0px -4px 0px #b3a497;
+}
+
+.dark main .keypad .large {
+  background-color: #d03f2f;
+  color: #ffffff;
+  -webkit-box-shadow: inset 0px -4px 0px #93261a;
+          box-shadow: inset 0px -4px 0px #93261a;
+}
+
+.dark main .keypad .blue {
+  background-color: #647198;
+  color: #ffffff;
+  -webkit-box-shadow: inset 0px -4px 0px #414e73;
+          box-shadow: inset 0px -4px 0px #414e73;
+}
+
+.purple {
+  background-color: #17062a;
+  color: #ffe53d;
+}
+
+.purple header .theme input {
+  background-color: #1e0936;
+}
+
+.purple header .theme input::-webkit-slider-thumb {
+  background-color: #00ded0;
+}
+
+.purple main .result {
+  background-color: #1e0936;
+}
+
+.purple main .keypad {
+  background-color: #1e0936;
+}
+
+.purple main .keypad .number {
+  color: #ffe53d;
+  background-color: #331c4d;
+  -webkit-box-shadow: inset 0px -4px 0px #881c9e;
+          box-shadow: inset 0px -4px 0px #881c9e;
+}
+
+.purple main .keypad .large {
+  background-color: #00ded0;
+  color: #1a2327;
+  -webkit-box-shadow: inset 0px -4px 0px #6cf9f1;
+          box-shadow: inset 0px -4px 0px #6cf9f1;
+}
+
+.purple main .keypad .blue {
+  background-color: #56077c;
+  color: #ffe53d;
+  -webkit-box-shadow: inset 0px -4px 0px #be15f4;
+          box-shadow: inset 0px -4px 0px #be15f4;
+}
+/*# sourceMappingURL=styles.css.map */
