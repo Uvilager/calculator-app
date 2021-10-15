@@ -9,6 +9,9 @@
                 background: $secondaryBackgroundColorTwo;
                 &::-webkit-slider-thumb {
                     background-color: $tertiaryButtonsColorTwo;
+                    &:hover {
+                        background-color: $tertiaryButtonsColorHoverTwo;
+                    }
                 }
             }
         }
@@ -23,16 +26,26 @@
                 color: $numbersColorTwo;
                 background-color: $buttonsColorTwo;
                 box-shadow: inset 0px -4px 0px $backgroundShadowTwo;
+                &:hover {
+                    background-color: $buttonsColorHoverTwo;
+                    cursor: pointer;
+                }
             }
             .large {
                 background-color: $tertiaryButtonsColorTwo;
                 color: $textColorOne;
                 box-shadow: inset 0px -4px 0px $backgroundShadowRedTwo;
+                &:hover {
+                    background-color: $tertiaryButtonsColorHoverTwo;
+                }
             }
             .blue {
                 background-color: $secondaryButtonsColorTwo;
                 color: $textColorOne;
                 box-shadow: inset 0px -4px 0px $backgroundShadowBlueTwo;
+                &:hover {
+                    background-color: $secondaryButtonsColorHoverTwo;
+                }
             }
         }
     }
@@ -47,6 +60,9 @@
                 background-color: $secondaryBackgroundColorOne;
                 &::-webkit-slider-thumb {
                     background-color: $tertiaryButtonsColorOne;
+                    &:hover {
+                        background-color: $tertiaryButtonsColorHoverOne;
+                    }
                 }
             }
         }
@@ -61,16 +77,25 @@
                 color: $numbersColorOne;
                 background-color: $buttonsColorOne;
                 box-shadow: inset 0px -4px 0px $backgroundShadowOne;
+                &:hover {
+                    background-color: $buttonsColorHoverOne;
+                }
             }
             .large {
                 background-color: $tertiaryButtonsColorOne;
                 color: $textColorOne;
                 box-shadow: inset 0px -4px 0px $backgroundShadowRedOne;
+                &:hover {
+                    background-color: $tertiaryButtonsColorHoverOne;
+                }
             }
             .blue {
                 background-color: $secondaryButtonsColorOne;
                 color: $textColorOne;
                 box-shadow: inset 0px -4px 0px $backgroundShadowBlueOne;
+                &:hover {
+                    background-color: $secondaryButtonsColorHoverOne;
+                }
             }
         }
     }
@@ -85,6 +110,9 @@
                 background-color: $secondaryBackgroundColorThree;
                 &::-webkit-slider-thumb {
                     background-color: $tertiaryButtonsColorThree;
+                    &:hover {
+                        background-color: $tertiaryButtonsColorHoverThree;
+                    }
                 }
             }
         }
@@ -99,16 +127,25 @@
                 color: $numbersColorThree;
                 background-color: $buttonsColorThree;
                 box-shadow: inset 0px -4px 0px $backgroundShadowThree;
+                &:hover {
+                    background-color: $buttonsColorHoverThree;
+                }
             }
             .large {
                 background-color: $tertiaryButtonsColorThree;
                 color: $numbersColorBlack;
                 box-shadow: inset 0px -4px 0px $backgroundShadowRedThree;
+                &:hover {
+                    background-color: $tertiaryButtonsColorHoverThree;
+                }
             }
             .blue {
                 background-color: $secondaryButtonsColorThree;
                 color: $textColorThree;
                 box-shadow: inset 0px -4px 0px $backgroundShadowBlueThree;
+                &:hover {
+                    background-color: $secondaryButtonsColorHoverThree;
+                }
             }
         }
     }
